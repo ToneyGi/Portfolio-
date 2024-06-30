@@ -1,7 +1,7 @@
-/* styles.css */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    padding-top: 60px;
 }
 
 .container {
@@ -22,6 +22,11 @@ a {
 
 a:hover {
     color: #888;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #ffeb3b;
 }
 
 section {
@@ -47,5 +52,5 @@ form button {
 }
 
 form button:hover {
-    background-color: #555;
+    background-color: #4b5563;
 }
